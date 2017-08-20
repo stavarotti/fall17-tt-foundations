@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lists</title>
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+
+<body>
+  <img id="logo" src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Powered"
+    title="HTML5 Powered">
+
+  <div id="navigation">
+    <a href="index.html">Home</a>
+    <a href="lists.html">Lists</a>
+    <a href="tables.html">Tables</a>
+    <a href="forms.html">Forms</a>
+  </div>
+
+  <h1>Lists</h1>
+
+  <h2 id="unordered-list">Unordered List</h2>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li class="nested">Item 3
+      <ul>
+        <li>Sub Item 1</li>
+        <li>Sub Item 2</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2 id="Ordered-list">Ordered List</h2>
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li class="nested">Item 3
+      <ol type="a">
+        <li>Secondary Item 1</li>
+        <li>Secondary Item 2</li>
+        <li class="nested">Secondary Item 3
+          <ol type="i">
+            <li>Tertiary Item 1</li>
+            <li>Tertiary Item 2</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

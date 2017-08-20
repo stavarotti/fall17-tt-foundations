@@ -1,0 +1,27 @@
+#navigation {
+  border: 1px solid gray;
+  padding: 16px;
+}
+
+#link-to-end {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#logo {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* Lists */
+
+.nested {
+  font-weight: bold;
+}
+
+/* Tables */
+
+table, th, td {
+  border: 1px solid black;
+}
