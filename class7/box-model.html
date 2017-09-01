@@ -7,21 +7,40 @@
 </head>
 
 <body>
-  <img id="logo" src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Powered" title="HTML5 Powered">
+  <header>
+    <a id="logo" href="index.html">
+      <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML5 Powered" title="HTML5 Powered">
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="box-model.html">Box Model</a>
+      <a href="positioning.html">Positioning</a>
+    </nav>
+  </header>
 
-  <div id="navigation">
-    <a href="index.html">Home</a>
-    <a href="box-model.html">Box Model</a>
-    <a href="positioning.html">Positioning</a>
-  </div>
+  <main class="box-model">
+    <h1>CSS - Box Model</h1>
 
-  <h1>CSS - Box Model</h1>
+    <!-- Hero Content -->
+    <div id="hero">
+      Placeholder for Hero image. Try to add an an image tag using the any of th "hero" images in the images folder.
+    </div>
 
-  <!-- Hero Content -->
-  <div id="hero"></div>
+    <!-- Tiles -->
+    <div class="tiles">
+      <div class="tile">
+        <img src="images/tile-1.jpg">
+        <h3>Tile 1</h3>
+        <p>This tile has a width of 50% and should be on the same "line" as the next tile. Can you use the box model to figure out how to make this happen?</p>
+      </div>
+      <div class="tile">
+        <img src="images/tile-2.jpg">
+        <h3>Tile 2</h3>
+        <p>This tile has a width of 50% and should be on the same "line" as the previous tile. Can you use the box model to figure out how to make this happen?</p>
+      </div>
+    </div>
+  </main>
 
-  <!-- Tiles -->
-  <div class="tiles"></div>
 
   <script src="js/main.js"></script>
 </body>
