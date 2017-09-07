@@ -52,7 +52,6 @@ nav a {
 /* Hero image */
 
 #hero {
-  border: 1px solid gray;
   min-height: 10vh;
   margin-bottom: 2rem;
 }
@@ -63,11 +62,12 @@ nav a {
 }
 
 
+/* Main content */
+
+
 /* Tiles */
 
 .tiles {
-  border: 1px solid gray;
-  padding: 8px;
   position: relative;
 }
 
@@ -83,4 +83,33 @@ nav a {
 .tile img {
   max-height: 100%;
   max-width: 100%;
+}
+
+.center-inline {
+  position: relative;
+  border: 1px solid black;
+  height: 30vh;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.center-inline span {
+  vertical-align: middle;
+  height: 30vh;
+  line-height: 30vh;
+}
+
+.center-block {
+  position: relative;
+  border: 1px solid black;
+  height: 30vh;
+}
+
+.center-block p {
+  height: 5vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
 }
