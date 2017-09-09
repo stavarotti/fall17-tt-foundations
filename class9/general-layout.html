@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Layout Exercise</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+    
+    header {
+      display: block;
+      background-color: red;
+      height: 25vh;
+    }
+    
+    #logo {
+      display: inline-block;
+      background: blue;
+      height: 25vh;
+      width: 30vw;
+    }
+    
+    main {
+      height: 75vh;
+      background-color: gray;
+    }
+    
+    .aside1 {
+      background-color: yellow;
+      height: 20vh;
+      display: inline-block;
+      width: 50%;
+      position: absolute;
+      bottom: 0;
+    }
+    
+    .aside2 {
+      background-color: purple;
+      height: 20vh;
+      display: inline-block;
+      width: 50%;
+      position: absolute;
+      bottom: 0;
+      left: 50vw;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <div id="logo">Logo</div>
+    Header
+  </header>
+  <main>
+    Content
+
+    <div>
+      <div class="aside1">Aside 1</div>
+      <!--
+-->
+      <div class="aside2">Aside 2</div>
+    </div>
+  </main>
+</body>
+
+</html>
