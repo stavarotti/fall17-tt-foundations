@@ -1,0 +1,32 @@
+/* Main content */
+
+.image-container img {
+  height: 15vh;
+}
+
+#image-1 {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+#image-2 {
+  float: right;
+  margin: 1rem 0 1rem 1rem;
+}
+
+.square {
+  height: 25vh;
+  width: 25%;
+  float: left;
+  background-color: #86C232;
+  border: 1px solid #ffffff;
+}
+
+#square-3 {
+  clear: left;
+}
+
+#square-4 {
+  clear: left;
+}
