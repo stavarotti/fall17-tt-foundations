@@ -1,0 +1,19 @@
+.tv-shows {
+  margin-bottom: 2rem;
+  /* Control space between table cells */
+}
+
+.tv-shows caption {
+  text-align: left;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.tv-shows thead th {
+  border-bottom: 2px solid #000;
+}
+
+.tv-shows td {
+  border-bottom: 1px solid #000;
+  padding: 0.5rem;
+}
