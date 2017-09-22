@@ -1,6 +1,9 @@
 .flex-container {
   border: 2px solid #f00;
   padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .flex-item {
@@ -8,4 +11,12 @@
   height: 6.25rem;
   background: #0000ff;
   color: #fff;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item:nth-of-type(3) {
+  flex-grow: 2;
 }
