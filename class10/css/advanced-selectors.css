@@ -17,3 +17,23 @@
   border-bottom: 1px solid #000;
   padding: 0.5rem;
 }
+
+.tv-shows tbody td:last-of-type {
+  text-decoration: underline;
+}
+
+.tv-shows tbody td:first-of-type {
+  font-weight: 900;
+}
+
+.tv-shows tbody tr:nth-of-type(odd) {
+  background: #d3d3d3;
+}
+
+.tv-shows tbody tr:nth-of-type(even) {
+  background: #f5f5f5;
+}
+
+.tv-shows tbody tr:nth-of-type(2n) {
+  font-weight: bold;
+}
