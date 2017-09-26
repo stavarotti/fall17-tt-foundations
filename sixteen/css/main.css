@@ -79,3 +79,27 @@ main p {
 nav {
   display: none;
 }
+
+@media all and (min-width: 1024px) {
+  #menu-toggle {
+    display: none;
+  }
+  nav {
+    display: inline-block;
+    float: right;
+    right: 7vw;
+    position: relative;
+    height: 10vh;
+  }
+  nav a {
+    padding: 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+    line-height: 10vh;
+  }
+  main {
+    background-image: url("../images/siluet-large.png");
+  }
+}
