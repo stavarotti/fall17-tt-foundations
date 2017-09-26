@@ -4,3 +4,17 @@ main,
 #sidebar {
   border: 1px solid #000;
 }
+
+#sidebar {
+  float: left;
+  height: 50vh;
+}
+
+main {
+  float: right;
+  height: 50vh;
+}
+
+footer {
+  clear: right;
+}
