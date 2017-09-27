@@ -4,26 +4,134 @@
 <head>
   <title>Bootstrap</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 
 <body>
-  <header>
-    <a id="logo" href="index.html">
-      <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML5 Powered" title="HTML5 Powered">
-    </a>
-    <nav>
-      <a href="index.html">Home</a>
-    </nav>
-  </header>
+  <div class="container-fluid">
+    <header>
+      <!-- Just an image -->
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="30" height="30" alt="">
+        </a>
+        <a class="flex-sm-fill text-sm-center nav-link active" href="index.html">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Page 2</a>
+      </nav>
+    </header>
 
-  <main>
-  </main>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="jumbotron col-md-12">
+            <h1 class="display-3">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card col-lg-3 col-12">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
 
-  <footer>
-    <span>&copy; 2017</span>
-  </footer>
-  <script src="js/main.js"></script>
+          <div class="card col-lg-3 col-12">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-lg-3 col-12">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-lg-3 col-12">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--<h1>Boostrap and JavaScript</h1>
+
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="cube col-md-3 col-sm-6 col-3">Cube 1</div>
+          <div class="cube col-md-3 col-sm-6 col-3">Cube 2</div>
+          <div class="cube col-md-3 col-sm-6 col-3">Cube 3</div>
+          <div class="cube col-md-3 col-sm-6 col-3">Cube 4</div>
+        </div>
+      </div>
+
+
+      <div>
+        <button class="btn btn-danger">Get More Movies</button>
+      </div>
+
+      <form>
+        <div class="form-group">
+          <label for="awesome-movies">
+            List of Movies
+          </label>
+          <select id="awesome-movies" class="form-control form-control-sm">
+            <option>Raiders of the Lost...</option>
+            <option>Matrix</option>
+          </select>
+        </div>
+      </form>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Movie Name</th>
+            <th>Release Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Raiders of the ...</td>
+            <td>1981</td>
+          </tr>
+          <tr>
+            <td>Matrix</td>
+            <td>1999</td>
+          </tr>
+        </tbody>
+      </table>-->
+    </main>
+
+    <footer>
+      <span>&copy; 2017</span>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </div>
 </body>
 
 </html>

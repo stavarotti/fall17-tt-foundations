@@ -47,3 +47,7 @@ nav a {
 .box-model .tile {
   width: 50%;
 }
+
+.cube {
+  border: 1px solid goldenrod;
+}
