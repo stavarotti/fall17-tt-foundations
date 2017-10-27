@@ -1,0 +1,38 @@
+/** Header **/
+
+header h1 {
+  border-bottom: 2px solid rgba(0, 0, 0, .1);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+
+/** Todo Containers **/
+
+.todo-container {
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.todo-container .badge {
+  cursor: pointer;
+  visibility: hidden;
+}
+
+
+/** Todo item **/
+
+.completed span {
+  text-decoration: line-through;
+}
+
+.completed span:last-of-type {
+  text-decoration: none;
+}
+
+.completed .badge {
+  visibility: visible;
+}

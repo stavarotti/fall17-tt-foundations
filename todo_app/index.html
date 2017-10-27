@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>My Todos</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+  <!-- Add main wrapper -->
+  <main class="container">
+    <!-- Header -->
+    <div class="row">
+      <div class="col">
+        <header>
+          <h1>My Todos</h1>
+        </header>
+      </div>
+    </div>
+
+    <!-- User input -->
+    <div class="row">
+      <div class="col">
+        <form action="" id="todo-form">
+          <!-- Todo Description -->
+          <div class="form-group">
+            <label for="todo-desc">Enter Todo Item</label>
+            <input class="form-control" type="text" id="todo-desc" autocomplete="off" placeholder="Enter todo" />
+          </div>
+
+          <!-- Todo Groups -->
+          <div class="form-group">
+            <label>Choose a Todo List</label>
+            <select class="form-control" id="todo-list-groups">
+              <option value="todo-current-list" selected>
+                Current List
+              </option>
+              <option value="todo-grocery-list">
+                Grocery List
+              </option>
+              <option value="todo-long-term-list">
+                Long Term List
+              </option>
+            </select>
+          </div>
+
+          <!-- Add due date -->
+          <div class="form-group">
+            <label for="todo-due-date">Enter Due Date</label>
+            <input class="form-control" type="date" id="todo-due-date" />
+          </div>
+
+          <!-- Priority -->
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" id="low" name="todo-priority" value="low" checked="checked" /> Low
+            </label>
+
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" id="medium" name="todo-priority" value="medium" /> Medium
+            </label>
+
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" id="high" name="todo-priority" value="high" /> High
+            </label>
+          </div>
+
+          <!-- Submit the todo -->
+          <button type="submit" class="btn btn-primary">
+            Add Todo
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Todo Containers -->
+    <div class="row">
+      <!-- Current Todos -->
+      <div class="col-sm-12 col-md-4">
+        <h3>Current Todos</h3>
+        <div class="todo-container" id="todo-current-list">
+          <ul class="list-group"></ul>
+        </div>
+      </div>
+
+      <!-- Grocery Todos -->
+      <div class="col-sm-12 col-md-4">
+        <h3>Grocery Todos</h3>
+        <div class="todo-container" id="todo-grocery-list">
+          <ul class="list-group"></ul>
+        </div>
+      </div>
+
+      <!-- Long Term Todos -->
+      <div class="col-sm-12 col-md-4">
+        <h3>Long Term Todos</h3>
+        <div class="todo-container" id="todo-long-term-list">
+          <ul class="list-group"></ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
